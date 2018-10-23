@@ -162,29 +162,9 @@ Auf www.github.com ein Benutzerkonto erstellen (Angabe von Username, E-Mail und 
     ```
 6.  Nun sollte der Master-Branch des Repositorys ebenfalls aktualisiert sein
 
-### Übersicht "How to Push"
-***
-
-Dieser Abschnitt zeigt die Handhabung von Git-Befehlen auf. Mit den nachfolgenden Kommandos pusht man das (geänderte) Repository zu seinem GitHub-Repository.
-
-Wichtig: Die Befehle müssen innerhalb des lokalen Repositorys ausgeführt werden!
-
-```Shell 
-$  cd Pfad\zu\meinem\Repository    # Zum lokalen GitHub-Repository wechseln
-$  git status                      # Geänderte Datei(en) werden rot aufgelistet
-$  git add -a                      # Fügt alle Dateien zum "Upload" hinzu
-$  git status                      # Der Status ist nun grün > Dateien sind Upload-bereit (Optional) 
-$  git commit -m "Mein Kommentar"  # Upload wird "commited" > Kommentar zu Dokumentationszwecken ist dafür notwendig
-$  git status                      # Dateien werden nun als "zum Pushen bereit" angezeigt
-$  git push                        # Upload bzw. Push wird durchgeführt
-```
 
 VirtualBox
 ======
-
-Nun widmen wir uns der Virtualisierung von Computersystemen. Für den Betrieb von solchen Maschinen bzw. Computern stehen zahlreiche Virtualisierungsanwendungen zur Verfügung. Eine davon ist VirtualBox. In diesem Kapitel richten wir eine einfache VM (Virtuelle Maschine) mit VirtualBox ein. Also ganz traditionell und wie sich im späteren Verlauf zeigt, auch eine sehr aufwendige Arbeit.
-
-Folgende Arbeiten müssen gemacht werden:
 
 ### Software herunterladen & installieren
 ***
