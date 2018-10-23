@@ -26,6 +26,6 @@ Auf www.github.com ein Benutzerkonto erstellen (Angabe von Username, E-Mail und 
 1. Anmelden unter www.github.com 
 2. Innerhalb der Willkommens-Seite auf Start a project klicken
 3. Unter Repository name einen Name definieren (z.B. M300)
-4. Haken bei Initialize this repository with a README setzen
+4. Haken bei Initialize this repository with a README.md setzen
 5. Auf repository klicken
 
