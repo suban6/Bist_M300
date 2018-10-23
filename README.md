@@ -16,7 +16,7 @@ Die nachstehende Dokumentation wurde von Ilamaran Palanivetpillai im Rahmen des 
 5. Vagrant
 6. Visual Studio Code
 
-### Account erstellen
+### Konto erstellen
 ***
 * [X] Auf www.github.com ein Benutzerkonto erstellen (Angabe von Username, E-Mail und Passwort)
 
