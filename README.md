@@ -1,11 +1,10 @@
 Toolumgebung aufsetzen
 ======
 
-Dieses Repository behandelt die Installation von GitHub, VirtualBox, SSH , Vagrant und Visual Studio Code.
+Dieses Repository behandelt die Installation von GitHub, VirtualBox, SSH, Vagrant und Visual Studio Code.
 
 #### Einleitung
-
-Die nachstehende Dokumentation wurde von Ilamaran Palanivetpillai im Rahmen des Moduls M300 (Plattformübergreifende Dienste in ein Netzwerk integrieren) erarbeitet.
+Diese Dokumentation wurde von mir mit der Unterstützung des Klassenkameraden und des Google erstellt.
 
 #### Voraussetzungen
 ***
@@ -16,7 +15,7 @@ Die nachstehende Dokumentation wurde von Ilamaran Palanivetpillai im Rahmen des 
 5. Vagrant
 6. Visual Studio Code
 
-### Konto erstellen
+### Git-Konto erstellen
 ***
 
 Auf www.github.com ein Benutzerkonto erstellen (Angabe von Username, E-Mail und Passwort)
@@ -49,7 +48,6 @@ Auf www.github.com ein Benutzerkonto erstellen (Angabe von Username, E-Mail und 
       Enter passphrase (empty for no passphrase): [Passwort]
       Enter same passphrase again: [Passwort wiederholen]
     ```
-
 
 ### SSH-Key dem SSH-Agent hinzufügen
 ***
@@ -181,7 +179,6 @@ $  git status                      # Dateien werden nun als "zum Pushen bereit" 
 $  git push                        # Upload bzw. Push wird durchgeführt
 ```
 
-
 VirtualBox
 ======
 
@@ -254,14 +251,8 @@ Die virtuelle Maschine (VM) sollte nun soweit betriebsbereit sein, sprich der Zu
 9. Browser-Fenster schliessen und VM wieder herunterfahren/stoppen
 10. Mit dem Kapitel 4 (Vagrant) fortfahren
 
-
 04 - Vagrant
 ======
-
-
-Kapitel 3 (VirtualBox) sollte uns zeigen, dass das Bereitstellen virtueller Systeme in der konventionellen Art lange dauert und umständlich sein kann.Abhilfe bietet hier Vagrant. Vagrant ist eine freie Ruby-Anwendung zur Erstellung und Verwaltung virtueller Maschinen und ermöglicht einfache Softwareverteilung.
-
-Nachfolgend sind einzelne Schritte zur Einrichtung von Vagrant dokumentiert:
 
 ### Software herunteladen & installieren
 ***
@@ -279,7 +270,6 @@ Nachfolgend sind einzelne Schritte zur Einrichtung von Vagrant dokumentiert:
 2. Auf "Download for Mac" klicken und warten, bis das Fenster zum Herunterladen erscheint. Anschliesend den Download des Installers starten.
 3. Die Installation erfolgt auch hier GUI-basiert. Wiederum aber standard (ohne speziellen Anpassungen), sodass an dieser Stelle auf eine Erklärung ebenfalls verzichtet wird .
 4. Sobald der Vorgang abgeschlossen wurde, kann mit dem Herunterladen der ISO-Datei und der VM-Erstellung fortgefahren werden.
-
 
 ### Extensions installieren
 ***
