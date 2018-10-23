@@ -1,7 +1,7 @@
-Toolumgebung (10)
+Toolumgebung aufsetzen
 ======
 
-Dieses Repository behandelt die Installation von GitHub, VirtualBox, Vagrant und Visual Studio Code.
+Dieses Repository behandelt die Installation von GitHub, VirtualBox, SSH , Vagrant und Visual Studio Code.
 
 #### Einleitung
 
