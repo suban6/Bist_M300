@@ -24,10 +24,9 @@ Auf www.github.com ein Benutzerkonto erstellen (Angabe von Username, E-Mail und 
 ### Repository erstellen
 ***
 1. Anmelden unter www.github.com 
-2. Innerhalb der Willkommens-Seite auf <strong>Start a project</strong> klicken
-3. Unter <strong>Repository name</strong> einen Name definieren (z.B. M300)
-4. Optional: kurze Beschreibung eingeben
-5. Radio-Button bei <strong>Public</strong> belassen
-6. Haken bei <strong>Initialize this repository with a README</strong> setzen
+2. Innerhalb der Willkommens-Seite auf Start a project klicken
+3. Unter Repository name einen Name definieren (z.B. M300)
+5. Radio-Button bei belassen
+6. Haken bei Initialize this repository with a README setzen
 7. Auf repository klicken
 
