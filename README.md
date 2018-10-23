@@ -29,26 +29,22 @@ Auf www.github.com ein Benutzerkonto erstellen (Angabe von Username, E-Mail und 
 4. Haken bei Initialize this repository with a README.md setzen
 5. Auf repository klicken
 
-### SSH-Key erstellen
+### SSH-Key erstellen (lokal)
 ***
 1.  Terminal öffnen
 2.  Folgenden Befehl mit der Account-E-Mail von GitHub einfügen:
-    
     ```Shell
       $  ssh-keygen -t rsa -b 4096 -C "beispiel@beispiel.com"
     ```
 3. Neuer SSH-Key wird erstellt:
-    
     ```Shell
       Generating public/private rsa key pair.
     ```
 4. Bei der Abfrage, unter welchem Namen der Schlüssel gespeichert werden soll, die Enter-Taste drücken (für Standard):
-    
     ```Shell
       Enter a file in which to save the key (~/.ssh/id_rsa): [Press enter]
     ```
 5. Nun kann ein Passwort für den Key festgelegt werden. Ich empfehle dieses zu setzen und anschliessend dem SSH-Agent zu hinterlegen, sodass keine erneute Eingabe (z.B. beim Pushen) notwendig ist:
-    
     ```Shell
       Enter passphrase (empty for no passphrase): [Passwort]
       Enter same passphrase again: [Passwort wiederholen]
@@ -59,14 +55,12 @@ Auf www.github.com ein Benutzerkonto erstellen (Angabe von Username, E-Mail und 
 ***
 1.  Terminal öffnen
 2.  SSH-Agent starten:
-    
     ```Shell
       $ eval "$(ssh-agent -s)"
       Agent pid 931
     ```
 3.  Ab Version macOS High Sierra 10.12.2 muss das `~/.ssh/config` File angepasst werden, damit SSH-Keys automatisch dem SSH-Agent hinzugefügt werden:
-   
-   ```Shell
+    ```Shell
       $ sudo nano ~/.ssh/config
       
       Host *
@@ -75,24 +69,11 @@ Auf www.github.com ein Benutzerkonto erstellen (Angabe von Username, E-Mail und 
       IdentityFile ~/.ssh/id_rsa
     ```
 4.  Nun muss der Schlüssel dem Agent nur noch hinzugefügt werden:
-    
     ```Shell
       $ ssh-add -K ~/.ssh/id_rsa
     ```
-5.  Der SSH-Key muss nun nur noch kopiert und anschliessend dem GitHub-Account hinzugefüg werden
-    
+5.  Der SSH-Key muss nun nur noch kopiert und anschliessend dem GitHub-Account hinzugefüg werden (siehe "SSH-Key hinzufügen"):
     ```Shell
       $ pbcopy < ~/.ssh/id_rsa.pub
       # Kopiert den Inhalt der id_rsa.pub Datei in die Zwischenablage
     ``` 
-
-
-### SSH-Key hinzufügen
-***
-1.  Anmelden unter www.github.com
-2.  Auf Benutzerkonto klicken (oben rechts) und den Punkt Settings aufrufen
-3.  Unter den Menübereichen auf der linken Seite zum Abschnitt SSH und GPG keys wechseln
-4.  Auf New SSH key klicken
-5.  Im Formular unter eine Bezeichnung vergeben (z.B. MB SSH-Key)
-6.  Den zuvor kopierten Key mit CTRL + V einfügen und auf Add SSH key klicken
-7.  Der Schlüssel (SSH-Key) sollte nun in der übergeordneten Liste auftauchen
