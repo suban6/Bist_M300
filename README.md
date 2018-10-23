@@ -18,7 +18,8 @@ Die nachstehende Dokumentation wurde von Ilamaran Palanivetpillai im Rahmen des 
 
 ### Konto erstellen
 ***
-* Auf www.github.com ein Benutzerkonto erstellen (Angabe von Username, E-Mail und Passwort)
+
+Auf www.github.com ein Benutzerkonto erstellen (Angabe von Username, E-Mail und Passwort)
 
 ### Repository erstellen
 ***
@@ -28,5 +29,5 @@ Die nachstehende Dokumentation wurde von Ilamaran Palanivetpillai im Rahmen des 
 4. Optional: kurze Beschreibung eingeben
 5. Radio-Button bei <strong>Public</strong> belassen
 6. Haken bei <strong>Initialize this repository with a README</strong> setzen
-7. Auf <strong>Create repository</strong> klicken
+7. Auf repository klicken
 
