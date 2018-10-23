@@ -18,7 +18,7 @@ Die nachstehende Dokumentation wurde von Ilamaran Palanivetpillai im Rahmen des 
 
 ### Konto erstellen
 ***
-* [X] Auf www.github.com ein Benutzerkonto erstellen (Angabe von Username, E-Mail und Passwort)
+* Auf www.github.com ein Benutzerkonto erstellen (Angabe von Username, E-Mail und Passwort)
 
 ### Repository erstellen
 ***
