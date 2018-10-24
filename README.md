@@ -4,7 +4,7 @@ Toolumgebung aufsetzen
 Dieses Repository behandelt die Installation von GitHub, VirtualBox, SSH, Vagrant und Visual Studio Code.
 
 #### Einleitung
-Diese Dokumentation wurde von mir mit der Unterstützung des Klassenkameraden und des Google erstellt.
+Diese Dokumentation wurde von mir mit der Unterstützung des Klassenkameraden und des Google erstellt. Weiter ich habe dieses Projekt in einem Windows Laptop gestartet und ich hatte Probleme in der Mitte, wenn ich Ubuntu auf VMplayer installiere. Ich habe mehrere Male versucht, es zu korrigieren, obwohl ich konnte es nicht. In der letzter Zeit habe ich mich für Mac Sytem entschieden. Ich versuche es mein besten zu machen.
 
 #### Voraussetzungen
 ***
