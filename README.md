@@ -33,7 +33,7 @@ Auf www.github.com ein Benutzerkonto erstellen (Angabe von Username, E-Mail und 
 1.  Terminal öffnen
 2.  Folgenden Befehl mit der Account-E-Mail von GitHub einfügen:
     ```Shell
-      $  ssh-keygen -t rsa -b 4096 -C "beispiel@beispiel.com"
+      $  ssh-keygen -t rsa -b 4096 -C "abcdfgh@gmail.com"
     ```
 3. Neuer SSH-Key wird erstellt:
     ```Shell
